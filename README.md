@@ -2,4 +2,4 @@
 
 ToDo like App
 
-**Click [here]() for preview** 
+**Click [here](https://pnowic.github.io/MDBootstrap-recruitment-task/) for preview** 
