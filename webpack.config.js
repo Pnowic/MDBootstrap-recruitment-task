@@ -8,11 +8,11 @@ module.exports = {
         main: path.join(__dirname, 'jsx', 'app.jsx')
     },
     output: {
-        path: path.join(__dirname, 'dist'),
+        path: path.join(__dirname, 'docs'),
         filename: '[name].bundle.js'
     },
     devServer: {
-        contentBase: path.join(__dirname, "dist"),
+        contentBase: path.join(__dirname, "docs"),
         compress: true,
         port: 9000
     },
