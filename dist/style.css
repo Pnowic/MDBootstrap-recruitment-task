@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  height: 100vh;
+  min-height: 100vh;
+  width: 100vw; }
+
+#app {
+  min-height: 100%;
+  background-color: #ffe2f9;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  font-family: "Cuprum", sans-serif;
+  letter-spacing: 0.5em; }
+
+.header, .footer {
+  background-color: #cdbbff;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  width: 100vw;
+  height: 10vh;
+  justify-self: flex-end; }
+
+.footer {
+  font-weight: 700;
+  font-size: 1em; }
+
+.buttons_container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 5vh 0; }
+  .buttons_container button {
+    border-radius: 50%;
+    height: 15vh;
+    width: 15vh;
+    outline: 0;
+    background: none;
+    font-weight: 700;
+    font-size: 1.1em;
+    text-align: center;
+    letter-spacing: 0.3em;
+    transition: all 1s ease; }
+
+.button_add {
+  border: 5px solid #4fadff;
+  color: #4fadff; }
+  .button_add:hover {
+    background: #4fadff;
+    color: #ffe2f9; }
+
+.button_remove {
+  border: 5px solid #57d90d;
+  color: #57d90d; }
+  .button_remove:hover {
+    background: #57d90d;
+    color: #ffe2f9; }
+
+.button_clear {
+  border: 5px solid #ff8a9f;
+  color: #ff8a9f; }
+  .button_clear:hover {
+    background: #ff8a9f;
+    color: #ffe2f9; }
+
+.tasks_list {
+  margin: 5vh 0;
+  list-style: none;
+  width: 50vw;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  border: 5px solid #cdbbff;
+  border-radius: 5px;
+  min-height: 50vh;
+  background: #cdbbff;
+  box-shadow: 15px 15px 66px 0px #615778; }
+  .tasks_list .task {
+    font-size: 3em;
+    letter-spacing: 0.5em;
+    margin: 1vh 0; }

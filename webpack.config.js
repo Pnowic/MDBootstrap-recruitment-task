@@ -49,8 +49,13 @@ module.exports = {
     plugins: [
         new HtmlWebpackPlugin({
             template: path.join(__dirname, 'index.html'),
-            hash: true
+            hash: false
         }),
-        new ExtractTextPlugin('style.css')
+        new ExtractTextPlugin('style.css'),
+        new ExtractTextPlugin({
+         filename: 'style.css',
+
+        })
+
     ]
 }

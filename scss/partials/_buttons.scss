@@ -1,0 +1,47 @@
+.buttons_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 5vh 0;
+  button {
+    border-radius: 50%;
+    height: 15vh;
+    width: 15vh;
+    outline: 0;
+    background: none;
+    font-weight: 700;
+    font-size: 1.1em;
+    text-align: center;
+    letter-spacing: 0.3em;
+    transition: all 1s ease;
+
+  }
+}
+
+.button_add {
+  border: 5px solid $add;
+  color: $add;
+  &:hover {
+    background: $add;
+    color: $background;
+  }
+}
+
+
+.button_remove {
+  border: 5px solid $remove;
+  color: $remove;
+  &:hover {
+    background: $remove;
+    color: $background;
+  }
+}
+
+.button_clear {
+  border: 5px solid $clear;
+  color: $clear;
+  &:hover {
+    background: $clear;
+    color: $background;
+  }
+}

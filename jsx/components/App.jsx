@@ -44,7 +44,7 @@ class App extends React.Component {
         return (
             <Fragment>
                 <Header/>
-                <main>
+                <main className='main'>
                     <Buttons
                         addTask = {this.handleTaskAdd}
                         removeTask = {this.handleTasRemove}

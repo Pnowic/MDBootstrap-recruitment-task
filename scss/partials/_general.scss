@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+#app {
+  min-height: 100%;
+  background-color: $background;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-family: $default;
+  letter-spacing: 0.5em;
+}

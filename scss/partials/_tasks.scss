@@ -1,0 +1,18 @@
+.tasks_list {
+  margin: 5vh 0;
+  list-style: none;
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 5px solid $header-footer;
+  border-radius: 5px;
+  min-height: 50vh;
+  background: $header-footer;
+  box-shadow: 15px 15px 66px 0px rgba(97,87,120,1);
+  .task {
+    font-size: 3em;
+    letter-spacing: 0.5em;
+    margin: 1vh 0;
+  }
+}

@@ -1,0 +1,15 @@
+.header, .footer {
+  background-color: $header-footer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  width: 100vw;
+  height: 10vh;
+  justify-self: flex-end;
+}
+
+.footer {
+  font-weight: 700;
+  font-size: 1em;
+}
