@@ -1,7 +1,6 @@
 import React from 'react';
 
-
-const Header  = (props) => {
+const Header  = () => {
     return (
         <header className="header">
             <h1 className="header_title">MDBootstrap Recruitment Task - ToDo App</h1>

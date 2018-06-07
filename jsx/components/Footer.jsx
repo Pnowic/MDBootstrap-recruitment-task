@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Footer  = (props) => {
+const Footer  = () => {
     return (
-        <footer>
+        <footer className="footer">
             <span className="footer_signature">2018 Piotr Nowicki</span>
         </footer>
     )

@@ -1,11 +1,11 @@
 import React from 'react';
 
-const Buttons  = (props) => {
+const Buttons = (props) => {
     return (
         <div className="buttons_container">
-            <button className="button_add">Add</button>
-            <button className="button_remove">Remove</button>
-            <button className="button_clear">Clear</button>
+            <button className="button_add" onClick={props.addTask}>ADD</button>
+            <button className="button_remove" onClick={props.removeTask}>REMOVE</button>
+            <button className="button_clear" onClick={props.clearAll}>CLEAR</button>
         </div>
     )
 };
